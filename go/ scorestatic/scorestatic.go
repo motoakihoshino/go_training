@@ -50,4 +50,6 @@ func main() {
 	max, min := scoremaxmin(mathscores)
 	fmt.Printf("最高点%d点\n", max)
 	fmt.Printf("最低点%d点\n", min)
+
+	hogehogehoge
 }
