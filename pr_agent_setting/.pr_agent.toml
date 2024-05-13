@@ -1,4 +1,6 @@
-[pr_reviewer]
-extra_instructions = "日本語で回答してください"
-[pr_code_suggestions]
-extra_instructions = "日本語で回答してください"
+[github_app]
+pr_commands = [
+    "/describe --pr_description.final_update_message=false",
+    "/review --pr_reviewer.num_code_suggestions=0 --pr_code_suggestions.extra_instructions=日本語で回答してください",
+    "/improve",
+]
