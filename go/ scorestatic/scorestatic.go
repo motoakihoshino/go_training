@@ -48,9 +48,6 @@ func main() {
 	fmt.Printf("平均点%d点\n", scoreavg(mathscores))
 	fmt.Printf("分散 %d(点・点)\n", avgvar(mathscores, avgvar(mathscores, 0)))
 	max, min := scoremaxmin(mathscores)
-	fmt.Printf("最高点%d点\n", max)
+	fmt.Printf("最高点%d%ssss点\n", max)
 	fmt.Printf("最低点%d点\n", min)
 }
-
-
-hogehoge
