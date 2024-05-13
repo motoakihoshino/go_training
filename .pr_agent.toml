@@ -26,3 +26,18 @@ enable_help_text=false # Determines whether to include help text in the PR revie
 # auto approval
 enable_auto_approval=false
 maximal_review_effort=5
+[pr_code_suggestions] # /improve #
+max_context_tokens=8000
+num_code_suggestions=4
+commitable_code_suggestions = true
+extra_instructions = "日本語で回答してください"
+rank_suggestions = false
+enable_help_text=false
+persistent_comment=false
+# params for '/improve --extended' mode
+auto_extended_mode=true
+num_code_suggestions_per_chunk=5
+max_number_of_calls = 3
+parallel_calls = true
+rank_extended_suggestions = false
+final_clip_factor = 0.8
