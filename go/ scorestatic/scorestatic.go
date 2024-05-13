@@ -51,3 +51,6 @@ func main() {
 	fmt.Printf("最高点%d点\n", max)
 	fmt.Printf("最低点%d点\n", min)
 }
+
+
+hogehoge
